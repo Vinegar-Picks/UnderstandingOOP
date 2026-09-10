@@ -12,7 +12,6 @@ public:
 	double getResult();
 	void setNumA(double);
 	void setNumB(double);
-
 //protected:// we can also use protected but in this case we dont
 };
 
