@@ -6,6 +6,7 @@ private:
 	double result;
 public:
 	Calculations(double, double);
+	Calculations();
 	void Addition();
 	double getNumA();
 	double getNumB();

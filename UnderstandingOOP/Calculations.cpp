@@ -6,7 +6,12 @@ Calculations::Calculations(double numA, double numB)
 	this->numB = numB;
 	this->result = 0;
 }
-
+Calculations::Calculations()
+{
+	this->numA = 0;
+	this->numB = 0;
+	this->result = 0;
+}
 void Calculations::Addition()
 {
 	this->result = this->numA + this-> numB;
